@@ -1,0 +1,256 @@
+<!DOCTYPE html >
+
+<html>
+
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+        <title>TMB Payment Hub</title>
+
+        <style>
+
+            table, th, td {
+
+                border: 1px solid orange;
+
+            }
+
+            th, td {
+
+                padding: 10px;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h2 >PH Production Batch status Debit Pending</h2>
+
+        <hr />
+
+        <div >
+
+            <table width="100%";>
+
+                <tr  valign="top"  >
+
+                    <td  valign="top" width="50%"; >
+
+                        <TABLE BORDER=1  width="100%";
+
+                               border-style:solid;
+
+                               border-width:2px; BORDERCOLORLIGHT=YELLOW
+
+                               BORDERCOLORDARK=BLUE>
+
+                               <tr bgcolor="#008000">
+
+                                <th colspan="6" style="color: #FFFFFF">Batch status Debit Pending</th>
+
+                            </tr>
+
+                            <tr bgcolor="#008000">
+
+                                <th style="color: #FFFFFF">FileName</th>
+
+                                <th style="color: #FFFFFF">Transaction Date</th>
+
+                                <th style="color: #FFFFFF">CurentDate</th> 
+
+                                <th style="color: #FFFFFF">Difference time(minute)</th>
+
+                                <th style="color: #FFFFFF">Transaction in PH</th>
+
+                                <th style="color: #FFFFFF">Transaction of File</th>
+                                <th style="color: #FFFFFF">Batch/File Status</th>
+
+                            </tr>
+
+                            :TABLE_DATA
+
+                            <TR>
+
+                                <TD colspan=2 >Total of batches</TD>
+
+                                <TD colspan=5  align="left"> :TOTAL_DATA </TD>
+
+                            </TR>
+
+                        </TABLE>
+
+                    </td>
+
+
+
+                </tr>
+
+
+            </table>
+
+            <br>
+
+            <table>
+
+                <tr>
+
+
+
+                    <td valign="top"  >
+
+
+
+                        <TABLE BORDER="1"
+
+
+
+                               border-style:solid;
+
+
+
+                               border-width:2px; BORDERCOLORLIGHT=YELLOW
+
+                               BORDERCOLORDARK=BLUE>
+
+
+
+                               <tr bgcolor="#008000">
+
+
+
+                                <th colspan="2" style="color: #FFFFFF">Total Of Batches</th>
+
+
+
+                            </tr>
+
+
+
+                            <tr bgcolor="#008000">
+
+
+
+                                <th style="color: #FFFFFF">Product</th>
+
+
+
+                                <th style="color: #FFFFFF">Total</th>
+
+
+
+                            </tr>
+
+
+
+                            :TABLE_DATA_DASHB
+
+
+
+                            <TR>
+
+
+
+                                <TD colspan=1>Total of Files</TD>
+
+
+
+                                <TD colspan=1 align="left">:TOTAL_DATA_DASHB</TD>
+
+
+
+                            </TR>
+
+
+
+                        </TABLE>
+
+
+
+                    </td>
+
+                    <td valign="top"  >
+
+
+                        <TABLE BORDER="1";border-style:solid; border-width:2px; BORDERCOLORLIGHT=YELLOW ; BORDERCOLORDARK=BLUE>
+
+
+
+                               <tr bgcolor="#008000">
+
+
+
+                                <th colspan="4" style="color: #FFFFFF">Batches status</th>
+
+
+
+                            </tr>
+
+
+
+                            <tr bgcolor="#008000">
+
+
+
+                                <th style="color: #FFFFFF">Product</th>
+
+                                <th style="color: #FFFFFF">Total</th>
+
+                                <th style="color: #FFFFFF">Batch Status</th>
+
+                                <th style="color: #FFFFFF">Debit Date</th>
+
+                            </tr>
+
+
+
+                            :TABLE_DATA_DASHB_DETAIL
+
+
+
+                            <TR>
+
+
+
+                                <TD colspan=1>Total of Files</TD>
+
+
+
+                                <TD colspan=3 align="left">:TOTAL_DATA_DASHB_DETAIL</TD>
+
+
+
+                            </TR>
+
+
+
+                        </TABLE>
+
+
+
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+
+
+        <br />
+
+        <div >dd-MM-yyyy</div>
+        <div >Sent By&nbsp;</div>
+        <div >XXXX XXXX</div>
+        <div >Outsource</div>
+        <div >IT</div>
+
+    </body>
+
+</html>
+
+
